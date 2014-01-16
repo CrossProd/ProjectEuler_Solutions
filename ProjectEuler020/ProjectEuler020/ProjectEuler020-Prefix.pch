@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ProjectEuler020' target in the 'ProjectEuler020' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

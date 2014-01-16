@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		697EFE3E152F80E600C80000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697EFE3D152F80E600C80000 /* Foundation.framework */; };
+		697EFE41152F80E600C80000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697EFE40152F80E600C80000 /* main.m */; };
+		697EFE45152F80E600C80000 /* ProjectEuler001.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 697EFE44152F80E600C80000 /* ProjectEuler001.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		697EFE37152F80E600C80000 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				697EFE45152F80E600C80000 /* ProjectEuler001.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		697EFE39152F80E600C80000 /* ProjectEuler001 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler001; sourceTree = BUILT_PRODUCTS_DIR; };
+		697EFE3D152F80E600C80000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		697EFE40152F80E600C80000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		697EFE43152F80E600C80000 /* ProjectEuler001-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectEuler001-Prefix.pch"; sourceTree = "<group>"; };
+		697EFE44152F80E600C80000 /* ProjectEuler001.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProjectEuler001.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		697EFE36152F80E600C80000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697EFE3E152F80E600C80000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		697EFE2E152F80E600C80000 = {
+			isa = PBXGroup;
+			children = (
+				697EFE3F152F80E600C80000 /* ProjectEuler001 */,
+				697EFE3C152F80E600C80000 /* Frameworks */,
+				697EFE3A152F80E600C80000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		697EFE3A152F80E600C80000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				697EFE39152F80E600C80000 /* ProjectEuler001 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		697EFE3C152F80E600C80000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				697EFE3D152F80E600C80000 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		697EFE3F152F80E600C80000 /* ProjectEuler001 */ = {
+			isa = PBXGroup;
+			children = (
+				697EFE40152F80E600C80000 /* main.m */,
+				697EFE44152F80E600C80000 /* ProjectEuler001.1 */,
+				697EFE42152F80E600C80000 /* Supporting Files */,
+			);
+			path = ProjectEuler001;
+			sourceTree = "<group>";
+		};
+		697EFE42152F80E600C80000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				697EFE43152F80E600C80000 /* ProjectEuler001-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		697EFE38152F80E600C80000 /* ProjectEuler001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697EFE48152F80E600C80000 /* Build configuration list for PBXNativeTarget "ProjectEuler001" */;
+			buildPhases = (
+				697EFE35152F80E600C80000 /* Sources */,
+				697EFE36152F80E600C80000 /* Frameworks */,
+				697EFE37152F80E600C80000 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler001;
+			productName = ProjectEuler001;
+			productReference = 697EFE39152F80E600C80000 /* ProjectEuler001 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		697EFE30152F80E600C80000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 697EFE33152F80E600C80000 /* Build configuration list for PBXProject "ProjectEuler001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 697EFE2E152F80E600C80000;
+			productRefGroup = 697EFE3A152F80E600C80000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				697EFE38152F80E600C80000 /* ProjectEuler001 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		697EFE35152F80E600C80000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697EFE41152F80E600C80000 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		697EFE46152F80E600C80000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		697EFE47152F80E600C80000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		697EFE49152F80E600C80000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectEuler001/ProjectEuler001-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		697EFE4A152F80E600C80000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectEuler001/ProjectEuler001-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		697EFE33152F80E600C80000 /* Build configuration list for PBXProject "ProjectEuler001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697EFE46152F80E600C80000 /* Debug */,
+				697EFE47152F80E600C80000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		697EFE48152F80E600C80000 /* Build configuration list for PBXNativeTarget "ProjectEuler001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697EFE49152F80E600C80000 /* Debug */,
+				697EFE4A152F80E600C80000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 697EFE30152F80E600C80000 /* Project object */;
+}
